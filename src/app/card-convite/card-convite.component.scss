@@ -1,0 +1,69 @@
+.cnv-w-90 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 96%;
+    // height: 300px;
+    // border: 1px solid #c5c0c0;
+    border-radius: 3px;
+}
+.cnv-w-90 .section-photo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    // background-color: brown;
+}
+.cnv-w-90 .section-photo .circle-photo {
+    width: 200px;
+    height: 200px;
+    border: 0.4px solid #c5c0c0;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+.img-circle-photo {
+    background-image: url('../../assets/img/wallpaper.jpg');
+    overflow: hidden;
+    background-size: cover;
+}
+.cnv-w-90 .section-nomes {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    // background-color: brown;
+}
+.cnv-w-90 .section-nomes .text-white {
+    color: #636161;
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
+    // margin-bottom: 6px;
+}
+.cnv-w-90 .section-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    // background-color: brown;
+}
+.cnv-w-90 .section-data .text-data-1 {
+    font-size: 12px;
+    color: #969494;
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.cnv-w-90 .section-data .data-casamento {
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 8px;
+    font-size: 22px;
+    color: #636161;
+}
+.cnv-w-90 .section-data .text-data-2 {
+    font-size: 12px;
+    color: #969494;
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
