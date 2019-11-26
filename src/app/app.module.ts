@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CardConviteComponent } from './card-convite/card-convite.component';
+import { FormularioComponent } from './formulario/formulario.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CardConviteComponent
+    CardConviteComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule,

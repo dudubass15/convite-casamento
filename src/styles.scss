@@ -26,11 +26,11 @@ body .convite {
 .m-bottom-6 {
     margin-bottom: 6px;
 }
-// @media screen and (min-width: 310px) and (max-width: 425px) {
-//     body .convite {
-//         width: 90%;
-//         margin: auto;
-//         padding: 20px;
-//         margin-top: 35%;
-//     }
-// }
+@media screen and (min-width: 310px) and (max-width: 425px) {
+    body .convite {
+        width: 90%;
+        margin: auto;
+        padding: 20px;
+        margin-top: 50%;
+    }
+}
