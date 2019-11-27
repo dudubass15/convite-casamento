@@ -8,9 +8,17 @@ import { Router } from '@angular/router';
 })
 export class FormularioComponent implements OnInit {
 
+  quantidadeInput = 0;
+
   constructor(private router: Router) { }
 
   ngOnInit() {
+  }
+
+  addInputs() {
+    this.quantidadeInput++;
+
+    console.log(this.quantidadeInput);
   }
 
   confirmarPresenca() {
