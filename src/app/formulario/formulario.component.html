@@ -5,9 +5,17 @@
     <div class="formulario">
         <div class="form-group">
             <label class="l-form">Nome completo: </label>
-            <input type="text" class="i-form">
+            <input type="text" class="i-form" [formControl]="form.controls.nome">
         </div>
-        <div class="form-group">
+        <div *ngFor="let i of inputs">
+            <div class="form-group">
+                <label class="l-form">Nome acompanhante: </label>
+                <input type="text" class="i-form" [formControl]="form.controls.acompanhante">
+            </div>
+            <span *ngIf="msgError" class="text-error">{{ msgError }}</span>
+        </div>
+
+        <div class="form-group form-btn">
             <button class="btn-addmais f-right" title="Mais campos" (click)="addInputs()">
                 <i class="material-icons">add</i>
             </button>

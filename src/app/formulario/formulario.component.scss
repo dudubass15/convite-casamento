@@ -45,7 +45,7 @@
 }
 .w-90 .formulario .form-group {
     width: 100%;
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 20px 0px;
     padding: 0px;
     // background-color: brown;
 }
@@ -87,6 +87,10 @@
     background-color: rgb(201, 132, 5);
     color: #ffffff;
 }
+.w-90 .formulario .form-group .btn-addmais:focus {
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
 .w-90 .section-confirmar {
     display: flex;
     justify-content: center;
@@ -112,4 +116,12 @@
     // background-color: #0bad0b;
     background-color: orange;
     color: #ffffff;
+}
+.form-btn {
+    height: 50px;
+}
+.text-error {
+    text-align: justify;
+    color: red;
+    font-family: 'Roboto Condensed', sans-serif;
 }
