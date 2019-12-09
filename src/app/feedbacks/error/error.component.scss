@@ -69,3 +69,31 @@
     background-color: #c20d0d;
     color: #ffffff;
 }
+@media screen and (min-width: 760px) {
+    .w-100 {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: auto;
+    }
+    .w-100 .section-inicio .btn-inicio {
+        width: 200px;
+        height: 40px;
+        margin: 2px;
+        font-family: 'Roboto Condensed', sans-serif;
+        border: 0px;
+        border-radius: 3px;
+        background-color: #f01616;
+        color: #ffffff;
+    }
+    .w-100 .section-inicio .btn-inicio:hover {
+        width: 200px;
+        height: 40px;
+        margin: 2px;
+        font-family: 'Roboto Condensed', sans-serif;
+        border: 0px;
+        border-radius: 3px;
+        background-color: #c20d0d;
+        color: #ffffff;
+    }
+}
