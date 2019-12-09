@@ -60,7 +60,7 @@
     justify-content: center;
     width: 99%;
     height: 30px;
-    border: 1px solid #c5c0c0;;
+    border: 1px solid #c5c0c0;
     border-radius: 4px;
     margin: auto;
     padding-left: 10px;
@@ -117,11 +117,44 @@
     background-color: orange;
     color: #ffffff;
 }
+.w-90 .section-confirmar .btn-confirma:hover {
+    width: 150px;
+    height: 40px;
+    margin: 2px;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: 0px;
+    border-radius: 3px;
+    background-color: rgb(201, 132, 5);
+    color: #ffffff;
+}
+.w-90 .section-confirmar .btn-cancelar:hover {
+    width: 150px;
+    height: 40px;
+    margin: 2px;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: 0px;
+    border-radius: 3px;
+    // background-color: #0bad0b;
+    background-color: rgb(201, 132, 5);
+    color: #ffffff;
+}
 .form-btn {
     height: 50px;
 }
+
+
+
+
+
+// Utils .....
 .text-error {
     text-align: justify;
     color: red;
     font-family: 'Roboto Condensed', sans-serif;
+}
+.danger {
+    border: 1px solid red !important;
+}
+.danger-label {
+    color: red !important;
 }
