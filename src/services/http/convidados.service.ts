@@ -10,12 +10,13 @@ export class ConvidadosService {
   constructor(private http: HttpClient) { }
 
   addRegistro(params) {
-    
-    let dados = new HttpHeaders()
-    .append('nome_convidado', params.nome_convidado)
-    .append('nome_acompanhante', params.nome_acompanhante);
+    // let dados = new HttpHeaders()
+    // .append('nome_convidado', params.nome_convidado)
+    // .append('nome_acompanhante', params.nome_acompanhante);
 
-    return this.http.post<any>(environment.webservice + '/convite/confirmar', dados, {headers: dados}).pipe().toPromise();
+    // return this.http.post<any>(environment.webservice + '/convite', dados, {headers: dados}).pipe().toPromise();
+
+    return this.http.post<any>(environment.webservice + '/convite', params).toPromise();
   }
 
 }
