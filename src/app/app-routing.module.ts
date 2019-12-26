@@ -4,6 +4,7 @@ import { FormularioComponent } from './formulario/formulario.component';
 import { CardConviteComponent } from './card-convite/card-convite.component';
 import { SuccessComponent } from './feedbacks/success/success.component';
 import { ErrorComponent } from './feedbacks/error/error.component';
+import { ConvidadosConfirmadosComponent } from './convidados-confirmados/convidados-confirmados.component';
 
 
 const routes: Routes = [
@@ -14,6 +15,10 @@ const routes: Routes = [
   {
     path: 'formulario',
     component: FormularioComponent
+  },
+  {
+    path: 'confirmados',
+    component: ConvidadosConfirmadosComponent
   },
   {
     path: 'feedback/success',

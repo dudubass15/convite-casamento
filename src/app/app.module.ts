@@ -9,6 +9,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { SuccessComponent } from './feedbacks/success/success.component';
 import { ErrorComponent } from './feedbacks/error/error.component';
+import { ConvidadosConfirmadosComponent } from './convidados-confirmados/convidados-confirmados.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ErrorComponent } from './feedbacks/error/error.component';
     CardConviteComponent,
     FormularioComponent,
     SuccessComponent,
-    ErrorComponent
+    ErrorComponent,
+    ConvidadosConfirmadosComponent
   ],
   imports: [
     BrowserModule,

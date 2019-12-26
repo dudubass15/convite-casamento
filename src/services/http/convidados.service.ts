@@ -19,4 +19,8 @@ export class ConvidadosService {
     return this.http.post<any>(environment.webservice + '/convite', params).toPromise();
   }
 
+  convidadosConfirmados() {
+    return this.http.get(environment.webservice + '/convite/confirmados').toPromise();
+  }
+
 }
