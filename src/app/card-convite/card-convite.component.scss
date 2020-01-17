@@ -1,3 +1,49 @@
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.menu .mapa {
+    text-decoration: none;
+    // font-family: 'Vidaloka', serif;
+    font-family: "Roboto Condensed", sans-serif;
+    // color: #636161;
+    color: #ec5858;
+    // font-weight: bold;
+    text-decoration-line: underline;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+}
+.menu button {
+    border: none;
+    cursor: pointer;
+    height: 32px;       /* altura c/ base na imagem do AP */
+    position: relative;
+    width: 140px        /* largura c/ base na imagem do AP*/
+}
+.menu button span {
+    color: #fff;
+    position: absolute;
+    line-height: 32px !important; /*obs: sobrepondo a regra de line-height do 'font-awesome'*/
+    top:0; bottom: 0
+}
+.menu button .icon {
+    background: #0A62C4;
+    // background: rgb(240, 156, 2);
+    font-size: 1.1em;
+    left: 0; width: 40px
+}
+.menu button .title {
+    background: #0971E4;
+    // background: orange;
+    right: 0; width: 100px
+}
+.menu button .icon-menu {
+    margin: 3px;
+}
+
 .cnv-w-90 {
     display: flex;
     flex-direction: column;
@@ -131,4 +177,19 @@
     text-align: center;
     margin-top: 0px;
     font-family: 'Roboto Condensed', sans-serif;
+}
+
+.btn-disabled {
+    background-color: rgb(230, 230, 230) !important;
+    color: #929292 !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        margin-bottom: 15px;
+        // background-color: red;
+    }
 }

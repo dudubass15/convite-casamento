@@ -1,3 +1,13 @@
+<div class="menu">
+    <!-- <a class="mapa" href="https://goo.gl/maps/C59ngRxuAQbAhzdz6" target="_blank">
+        <p><i class="material-icons">gps_fixed</i>Mapa no Google</p>
+    </a> -->
+    <button (click)="mapa()">
+        <span class='icon fa fa-facebook'><i class="material-icons icon-menu">gps_fixed</i></span>
+        <span class='title'>Mapa Google</span>
+    </button>
+</div>
+
 <div class="cnv-w-90">
     <div class="section-photo">
         <div class="circle-photo img-circle-photo"></div>
@@ -11,7 +21,7 @@
         <p class="text-data-2">ÀS 19:00</p>
     </div>
     <div class="section-confirma">
-        <button class="btn-confirma" (click)="formulario()">Confirmar presença</button>
+        <button [ngClass]="{'btn-disabled' : disabledBtn == true }" class="btn-confirma" (click)="formulario()" [disabled]="disabledBtn == true ? 'disabled': null">Confirmar presença</button>
     </div>
     <div class="section-endereco">
         <!-- <p class="title-cerimonia m-bottom-6">*LOCAL CERIMONIA:</p> -->

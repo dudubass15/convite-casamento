@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-card-convite',
@@ -8,9 +8,15 @@ import { Router } from '@angular/router';
 })
 export class CardConviteComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  disabledBtn = true;
+
+  constructor(private router: Router, private activeRouter: ActivatedRoute) { }
 
   ngOnInit() {
+  }
+
+  mapa() {
+    open("https://goo.gl/maps/C59ngRxuAQbAhzdz6");
   }
 
   formulario() {
