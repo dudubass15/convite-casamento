@@ -17,7 +17,7 @@ const routes: Routes = [
     component: FormularioComponent
   },
   {
-    path: 'confirmados',
+    path: 'listaConfirmados',
     component: ConvidadosConfirmadosComponent
   },
   {

@@ -20,7 +20,7 @@ export class ConvidadosService {
   }
 
   convidadosConfirmados() {
-    return this.http.get(environment.webservice + '/convite/confirmados').toPromise();
+    return this.http.get<any>(environment.webservice + '/convite/confirmados').toPromise();
   }
 
 }
